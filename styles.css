@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Raleway:wght@600&display=swap');
+.html {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    color: #1a1a1a;
+    background-color: #ebeaea;
+  }
+.body {
+    margin: auto;
+    max-width: 100%;
+    max-height: max-width * 1.5;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+   -webkit-hyphens: auto;
+   -ms-hyphens: auto;
+    hyphens: auto;
+    hyphens: auto;
+    overflow-wrap: break-word;
+    text-rendering: optimizeLegibility;
+    font-kerning: normal;
+  }
+  .container{
+    width: 60vw; /* 80% of the viewport width */
+    height: 90vw; /* Set height based on width */
+    max-width: 21cm; /* Maximum width in centimeters (A4 width) */
+    margin: auto; /* Center the container */
+    background-color: #ffffff; /* Optional: Set a background color */
+    padding: 20px; /* Optional: Add padding to the container */
+    box-sizing: border-box; /* Include padding and border in the total width/height */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+  }
+  .Section{
+    font-size: 1.7vw;
+    font-family: 'Lato', sans-serif;
+  }
+  #myElement {
+    max-width: 100%;
+  }
+  .heading{
+    font-size: 1.45vw;
+    font-family: 'Raleway', sans-serif;
+  }
+  .quotes{
+    font-size: 1.15vw;
+    font-family: 'Raleway', sans-serif;
+    color: #1a1a1a;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+  }
+  .texts{
+    font-size: 1.15vw;
+    font-family: 'Lato', sans-serif;
+  }
+  .column {
+    float: left;
+    width: 50%;
+  }
+  .column1{
+    width : 40%;
+  }
+  .column2{
+    width : 60%;
+  }
+  .name{
+    font-size: 5vw;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+  }
+  .contact_detail{
+    font-size: 1.2vw;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+  }
+  .divider{
+    border-top: 1.5px solid #000000;
+  }
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  p{
+    margin: 0 0 0 0;
+  }
+  a {
+    color: #1a1a1a;
+  }
+  a:visited {
+    color: #1a1a1a;
+  
+  }
+  .code {
+    font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+    font-size: 85%;
+    margin: 0;
+  }
+  .sourceCode {
+   background-color: transparent;
+   overflow: visible;
+  }
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  div.columns{display: flex; gap: min(4vw, 1.5vw);}
+  div.column{flex: auto; overflow-x: auto;}
+  div.hanging-indent{margin-left: 1.5vw; text-indent: -1.5vw;}
+  .display.math{display: block; text-align: center; margin: 0.5vw auto;}
+
+  @media screen and ( max-width: 600px ) {
+            .body {
+                margin: auto;
+                max-width: 100%;
+                max-height: max-width * 1.5;
+                padding-left: 50px;
+                padding-right: 50px;
+                padding-top: 50px;
+                padding-bottom: 50px;
+               -webkit-hyphens: auto;
+               -ms-hyphens: auto;
+                hyphens: auto;
+                hyphens: auto;
+                overflow-wrap: break-word;
+                text-rendering: optimizeLegibility;
+                font-kerning: normal;
+
+                    }
+            .container{
+            width: 60vw; /* 80% of the viewport width */
+            height: 150%; /* Set height based on width */
+            max-width: 21cm; /* Maximum width in centimeters (A4 width) */
+            margin: auto; /* Center the container */
+            background-color: #ffffff; /* Optional: Set a background color */
+            padding: 20px; /* Optional: Add padding to the container */
+            box-sizing: border-box; /* Include padding and border in the total width/height */
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            
+            }
+            .Section{
+                font-size: 1.7vw;
+                font-family: 'Lato', sans-serif;
+              }
+              #myElement {
+                max-width: 100%;
+              }
+              .heading{
+                font-size: 1.45vw;
+                font-family: 'Raleway', sans-serif;
+              }
+              .quotes{
+                font-size: 1.15vw;
+                font-family: 'Raleway', sans-serif;
+                color: #1a1a1a;
+                margin: 0 0 0 0;
+                padding: 0 0 0 0;
+              }
+              .texts{
+                font-size: 1.15vw;
+                font-family: 'Lato', sans-serif;
+              }
+            .column {
+            float: left;
+            width: 50%;
+            column-gap: 1vw;
+            }
+            .column1{
+            width : 40%;
+            }
+            .column2{
+            width : 60%;
+            }
+            .name{
+            font-size: 3.5vw;
+            margin: 0 0 0 0;
+            padding: 0 0 0 0;
+            font-family: 'Lato', sans-serif;
+            text-align: center;
+            }
+            .contact_detail{
+            font-size: 1.2vw;
+            margin: 0 0 0 0;
+            padding: 0 0 0 0;
+            font-family: 'Raleway', sans-serif;
+            text-align: center;
+            }
+            .divider{
+            border-top: 1.5px solid #000000;
+            }
+            /* Clear floats after the columns */
+            .row:after {
+            content: "";
+            display: table;
+            clear: both;
+            }
+            p{
+            margin: 0 0 0 0;
+            }
+            a {
+            color: #1a1a1a;
+            }
+            a:visited {
+            color: #1a1a1a;
+
+            }
+            .code {
+            font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+            font-size: 85%;
+            margin: 0;
+            }
+            .sourceCode {
+            background-color: transparent;
+            overflow: visible;
+            }
+            code{white-space: pre-wrap;}
+            span.smallcaps{font-variant: small-caps;}
+            div.columns{display: flex; gap: min(1.5vw, 1.5vw);}
+            div.column{flex: auto; overflow-x: auto;}
+            div.hanging-indent{margin-left: 1.5vw; text-indent: -1.5vw;}
+            .display.math{display: block; text-align: center; margin: 0.5vw auto;}
+        }
+    @media print {
+        body {
+        background-color: transparent;
+        color: black;
+        font-size: 1vw;
+        }
+        h2, h3, h4 {
+        page-break-after: avoid;
+        }
+    }
